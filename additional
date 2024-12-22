@@ -1,0 +1,5 @@
+use this code to install any exe without admin permmision 
+save this .bat and run
+
+Set _COMAT_LAYER=RunAsInvoker
+Start SteamSetup.exe
