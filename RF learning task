@@ -1,0 +1,99 @@
+🧭 RF Hacking Roadmap (Beginner Level)
+📘 1. Introduction to Radio Frequency
+What is RF?
+Electromagnetic spectrum
+Frequencies used in communication (AM, FM, UHF, VHF)
+Bandwidth and signal modulation basics
+
+🔧 Tools: Online spectrum chart viewer
+
+📘 2. Modulation & Encoding Basics
+Analog vs Digital signals
+Common modulations: OOK, ASK, FSK, PSK, GFSK, LoRa
+Baseband vs modulated signal
+How encoding schemes (Manchester, NRZ, etc.) affect decoding
+
+📚 Resource: Analog and Digital Communication by Simon Haykin (Basics) (Optional)
+
+📘 3. Software Defined Radio (SDR) Fundamentals
+What is SDR?
+Difference between RTL-SDR, HackRF One, Yard Stick One
+How SDR works (IQ sampling, ADC, etc.)
+Installing SDR software
+
+🔧 Tools:
+RTL-SDR v3 (cheap)
+SDR#, GQRX, GNU Radio, Universal Radio Hacker (URH)
+
+📘 4. Signal Capture & Analysis
+Capturing raw RF signals (RX)
+Identifying protocols from unknown signals
+Using URH to analyze waveform, decode bits
+Frequency scanning
+
+📚 Resource: "The Hobbyist's Guide to the RTL-SDR: Really Cheap Software Defined Radio" by Carl Laufer (Link)
+
+📘 5. RF Replay Attacks
+Understanding replay logic
+Capturing a signal (garage remote, keyfob)
+Replaying with HackRF or Flipper
+What is rolling code vs fixed code?
+
+🔧 Tools: HackRF, Flipper Zero, Yard Stick One, URH
+
+📘 6. RFID & NFC Hacking (13.56 MHz / 125 kHz)
+RFID vs NFC difference
+Mifare Classic, NTAG213, HID Prox cards
+Cloning access cards
+Proxmark3 basics
+
+📚 Book: "RFID Security and Privacy" by Ari Juels
+🔧 Tools: Proxmark3 RDV4, Flipper Zero
+
+📘 7. Sub-GHz IoT Hacking (315/433/868 MHz)
+Smarthome devices, remote controls, sensors
+Analyzing OOK/FSK signals
+Cloning remote signals
+
+🔧 Tools: HackRF, Yard Stick One, Flipper Zero
+
+📘 8. Jamming and Denial-of-Service
+Signal jamming principles
+Legal consequences
+How to jam Wi-Fi/Bluetooth/315MHz (in lab environments only!)
+
+⚠️ Only use inside a Faraday cage or isolated testbed
+
+📘 9. Building Custom SDR Workflows
+GNU Radio 101: Blocks, flowgraphs
+Creating decoders
+Demodulating unknown protocols
+
+Python scripting for SDR
+
+📚 Book: "Software Defined Radio using MATLAB & Simulink and the RTL-SDR" by Robert W. Stewart
+Resource: GNU Radio Tutorials on https://wiki.gnuradio.org
+
+📘 10. Legality & Ethics
+Radio regulations (in India: WPC/DoT)
+ISM bands you can experiment with
+Avoid transmitting on licensed bands
+
+📚 Recommended Book for Beginners (Best Starting Point)
+Book: "The Hobbyist's Guide to the RTL-SDR"
+
+Author: Carl Laufer
+
+Covers: SDR basics, signal analysis, decoding real-world RF devices
+📥 Free Online PDF version here
+
+🎯 Next Steps
+Once you’ve picked your first tool (e.g., RTL-SDR or Flipper Zero), I’ll help you:
+Set up your RF lab on Linux/Kali
+Do your first capture & replay
+Analyze and clone simple RF devices
+
+Let me know if:
+You have Flipper, HackRF, or RTL-SDR
+You want a custom hands-on lab plan with YouTube + GitHub exercises
+🛠 Ready to start capturing your first signal?
