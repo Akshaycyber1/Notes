@@ -1,0 +1,535 @@
+1. Networking & Network Security — Deep
+
+Start here because it supports almost every other domain.
+
+Networking Fundamentals
+
+OSI & TCP/IP models
+Ethernet, MAC, ARP
+IPv4 / IPv6
+Subnetting
+TCP / UDP
+TCP 3-way handshake
+Ports & services
+DNS
+DHCP
+NAT
+ICMP
+Routing & switching
+VLANs
+VPN
+Proxies
+
+Network Security
+
+Firewalls
+ACLs
+IDS/IPS
+WAF
+Network segmentation
+TLS/SSL
+Certificate validation
+Network attacks
+MITM concepts
+ARP spoofing
+DNS attacks
+Network enumeration
+Vulnerability assessment
+Nmap deeply
+Nessus deeply
+Wireshark deeply
+
+Wireless Security
+
+802.11 fundamentals
+Authentication & association
+WPA/WPA2/WPA3
+WEP
+Handshake concepts
+Wireless reconnaissance
+Evil Twin concepts
+Rogue AP
+Deauthentication concepts
+Wireless traffic analysis
+2. Web Application Security — Master
+
+This should be one of your strongest areas.
+
+Web Fundamentals
+HTTP/HTTPS
+Request/response
+Methods
+Headers
+Cookies
+Sessions
+CORS
+CSP
+Same-Origin Policy
+Browser security model
+TLS
+OWASP Web Security
+
+Learn deeply:
+
+Broken Access Control
+Authentication failures
+Authorization
+Session management
+Injection
+XSS
+SQL Injection
+CSRF
+SSRF
+XXE
+SSTI
+File upload
+Path traversal
+Command injection
+Deserialization
+Security misconfiguration
+Business logic vulnerabilities
+Advanced Manual Testing
+IDOR/BOLA
+Horizontal privilege escalation
+Vertical privilege escalation
+Race conditions
+Workflow manipulation
+State-transition testing
+Parameter pollution
+HTTP request smuggling
+Host header attacks
+Cache poisoning
+Prototype pollution
+OAuth/OIDC security
+JWT security
+SSO security
+Burp Suite
+
+Master:
+
+Proxy
+Repeater
+Intruder
+Scanner
+Decoder
+Comparer
+Extensions
+Scope
+Match & Replace
+Session handling
+Macros
+Burp automation
+3. API Security — Deep
+
+This is particularly important for your Wipro target.
+
+API Fundamentals
+REST
+SOAP
+JSON
+XML
+GraphQL
+HTTP methods
+Headers
+Parameters
+API authentication
+API Security
+Authentication
+Authorization
+BOLA/IDOR
+Broken Function-Level Authorization
+Mass assignment
+Excessive data exposure
+Rate limiting
+Input validation
+Parameter manipulation
+Header manipulation
+API business logic
+API versioning
+Error handling
+CORS
+JWT
+OAuth 2.0
+OpenID Connect
+Tools
+Burp Suite
+Postman
+OWASP ZAP
+
+And learn to test APIs manually, not just through scanners.
+
+4. DAST — Master for Wipro
+
+This is one of your most important areas.
+
+DAST Fundamentals
+What DAST is
+DAST vs SAST vs IAST vs SCA
+Black-box DAST
+Gray-box DAST
+Authenticated scanning
+Unauthenticated scanning
+Crawl/spidering
+Attack surface discovery
+Scan configuration
+Scanner Management
+Scan policies
+Authentication configuration
+Scope
+Crawl configuration
+Scan tuning
+Active/passive scanning
+False positives
+False negatives
+Manual validation
+Scan optimization
+Reporting
+Tools
+HCL AppScan
+Burp Suite Scanner
+OWASP ZAP
+
+You should be able to explain:
+
+Scanner finds → Tester validates → Tester reproduces → Tester assesses impact → Tester reports → Developer fixes → Tester retests.
+
+5. Android Security — Deep
+
+Your resume already claims Android security tools, so learn the underlying concepts rather than only the tools.
+
+Android Fundamentals
+Android architecture
+APK structure
+AndroidManifest.xml
+Activities
+Services
+Broadcast Receivers
+Content Providers
+Intents
+Permissions
+Storage
+SharedPreferences
+SQLite
+Keystore
+Static Analysis
+JADX
+Apktool
+MobSF
+Smali
+Decompiled code analysis
+Hardcoded secrets
+Insecure storage
+Exported components
+Dangerous permissions
+Cryptography issues
+Dynamic Analysis
+Genymotion
+Frida
+ADB
+Runtime behavior
+SSL pinning concepts
+Root detection
+Runtime instrumentation
+Traffic interception
+Android Network Security
+Burp Suite
+HTTPS
+Certificate pinning
+Network Security Config
+API authentication
+API authorization
+6. Thick Client / Windows Application Security — Deep
+
+You already have a good toolset listed.
+
+Windows Fundamentals
+Windows architecture
+Processes
+Threads
+Services
+DLLs
+Registry
+File system
+Named pipes
+IPC
+Windows permissions
+Windows APIs
+Thick Client Architecture
+Client-server architecture
+Local storage
+Configuration files
+Registry storage
+Credentials/secrets
+Client-side validation
+Authentication
+Authorization
+API communication
+Static Analysis
+PE structure
+DLL analysis
+Strings
+Imports/exports
+Packing
+Obfuscation
+Ghidra
+DIE
+PE Studio
+Dynamic Analysis
+Process analysis
+File-system monitoring
+Registry monitoring
+Network monitoring
+ProcMon
+Process Explorer
+TCPView
+Wireshark
+Echo Mirage
+7. Network VAPT
+
+After networking fundamentals:
+
+Reconnaissance
+Enumeration
+Port scanning
+Service enumeration
+Banner grabbing
+Vulnerability identification
+Exploitation concepts
+Privilege escalation
+Network segmentation testing
+Firewall testing
+Common network vulnerabilities
+Nmap scripting
+Nessus assessment
+Manual validation
+8. WAF & Application Protection
+
+Since you have WAF exposure, learn it properly.
+
+What WAF does
+WAF architecture
+Reverse proxy
+Detection mechanisms
+WAF rules
+Signatures
+Positive/negative security models
+False positives
+False negatives
+Request inspection
+Response inspection
+WAF logging
+Rule tuning
+WAF vs firewall
+WAF vs RASP
+Application behavior behind WAF
+Security-control validation
+9. VAPT Reporting — Professional Level
+
+You already list this skill in your resume.
+
+Learn:
+
+Vulnerability title
+Description
+Affected component
+Technical impact
+Business impact
+Severity
+CVSS
+CWE
+OWASP mapping
+Proof of Concept
+Screenshots/evidence
+Reproduction steps
+Root cause
+Remediation
+References
+False-positive analysis
+Retesting
+Remediation verification
+
+You should be able to take one vulnerability and write a complete professional finding from scratch.
+
+10. Active Directory — Deep
+
+Since you specifically want AD in your long-term roadmap:
+
+AD Fundamentals
+Domain
+Forest
+Tree
+DC
+OU
+Users
+Groups
+Computers
+GPO
+Kerberos
+LDAP
+NTLM
+DNS
+AD Security
+Kerberoasting
+AS-REP Roasting
+Password attacks
+ACL abuse
+Delegation
+Unconstrained/constrained delegation
+BloodHound
+Lateral movement
+Privilege escalation
+Credential attacks
+AD CS
+Domain privilege escalation
+11. Malware Analysis
+
+Keep this separate from vulnerability assessment, exactly as you suggested earlier.
+
+Fundamentals
+Malware types
+PE files
+Processes
+Threads
+DLLs
+Persistence
+Execution
+C2 concepts
+Static Analysis
+Strings
+PE headers
+Imports/exports
+Sections
+Entropy
+Packing
+Obfuscation
+Ghidra
+PE Studio
+DIE
+Dynamic Analysis
+Process behavior
+File-system activity
+Registry activity
+Network activity
+Process injection concepts
+Persistence mechanisms
+Sandbox analysis
+12. Cloud Security
+
+Later, after you are strong in the above:
+
+AWS
+IAM
+S3
+EC2
+VPC
+Security Groups
+CloudTrail
+Lambda
+Secrets
+Azure
+Entra ID
+RBAC
+Storage
+VMs
+Key Vault
+Managed identities
+Cloud Security Testing
+IAM misconfiguration
+Public storage
+Excessive permissions
+Metadata services
+SSRF → cloud credentials
+Secrets exposure
+Network misconfiguration
+13. DevSecOps / CI-CD
+
+This is one of your Wipro gaps, so learn it after your core application-security foundation.
+
+Git
+GitHub/GitLab
+CI/CD concepts
+Jenkins
+GitHub Actions
+Docker
+Kubernetes basics
+SAST
+DAST
+SCA
+Secrets scanning
+Security gates
+Pipeline security
+Shift-left security
+Security testing in CI/CD
+14. GenAI / LLM Security
+
+This is another Wipro gap.
+
+Learn:
+
+LLM fundamentals
+Prompt engineering basics
+Prompt injection
+Indirect prompt injection
+Jailbreaking
+System prompt leakage
+Sensitive information disclosure
+Excessive agency
+Insecure tool use
+RAG security
+Vector database security
+Model/API authorization
+LLM data leakage
+Agent security
+Model integration security
+15. SAP Security — Later
+
+Don't put this on your resume yet, but learn it if you want to close the Wipro gap.
+
+SAP architecture
+SAP authentication
+SAP authorization
+Roles/profiles
+T-codes
+RFC
+ICF
+OData
+SAP Gateway
+SAP web services
+SAP security testing
+Your Priority Order
+
+I would not learn all of these simultaneously.
+
+Your progression should be:
+
+01. Networking Fundamentals
+        ↓
+02. Network Security + Wireless
+        ↓
+03. Web Fundamentals
+        ↓
+04. Web Application Security
+        ↓
+05. API Security
+        ↓
+06. Burp Suite
+        ↓
+07. DAST + AppScan + ZAP
+        ↓
+08. VAPT Reporting
+        ↓
+09. Android Security
+        ↓
+10. Thick Client / Windows Security
+        ↓
+11. Active Directory
+        ↓
+12. Malware Analysis
+        ↓
+13. Cloud Security
+        ↓
+14. DevSecOps
+        ↓
+15. GenAI / LLM Security
+        ↓
+16. SAP Security
